@@ -1,0 +1,56 @@
+import turtle
+a=turtle.Screen()
+a.bgcolor("black")
+b=turtle.Turtle()
+b.color("red")
+b.pensize(30)
+b.shape("circle")
+b.speed(0)
+b.penup()
+b.goto(-100,300)
+b.pendown()
+
+
+k=turtle.Turtle()
+k.color("red")
+k.pensize(30)
+k.shape("circle")
+k.speed(0)
+k.penup()
+k.goto(-125,350)
+k.pendown()
+
+#3rd
+j=turtle.Turtle()
+#j.color("red")
+j.pensize(30)
+j.shape("circle")
+j.speed(0)
+j.penup()
+j.goto(-70,250)
+j.pendown()
+
+x=turtle.Turtle()
+x.color("yellow")
+x.shape("circle")
+x.shapesize(18)
+x.penup()
+x.goto(5,70)
+x.pendown()
+
+for i in range(100):
+     for colours in(["red","white","yellow","green","blue","cyan","magenta","violet","purple"]):
+          b.color(colours)
+          b.fd(200)
+          b.rt(45)
+          k.color(colours)
+          k.fd(250)
+          k.rt(45)
+          j.color(colours)
+          j.fd(150)
+          j.rt(45)
+          
+    
+    
+    
+turtle.done()
